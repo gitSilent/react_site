@@ -1,5 +1,6 @@
 import React from "react";
 import NavElem from "./NavElem";
+import { BrowserRouter, NavLink } from "react-router-dom";
 
 function NavBar(){
     let navElementsArray = [
@@ -10,14 +11,18 @@ function NavBar(){
         {href:'calendar', label:'calendar', link:'./img/calendar.svg'},
         {href:'settings', label:'settings', link:'./img/settings.svg'}        
     ]
-    return(
+    return (
+        <BrowserRouter> 
         <nav className="left-navbar">
             {navElementsArray.map(({href, label, link})=>(
                 <div className="nav-elem-div">
-                    <NavElem href={href} label={label} link={link}/>
+                    <NavLink to={href}  >
+                        <NavElem link={link} label={ label}/>
+                    </NavLink>
                 </div>
             ))}
-        </nav>
+            </nav>
+        </BrowserRouter>
     )
     
 }

@@ -1,0 +1,28 @@
+.dialogMessageCont{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 53px;
+    color: white;
+    
+}
+.textCont{
+    max-width: 520px;
+    padding: 22px 17px;
+    background: linear-gradient(90.54deg, #60A9F6 0%, #2A8BF2 100%);
+    box-shadow: 10px 10px 25px rgba(42, 139, 242, 0.1), 15px 15px 35px rgba(42, 139, 242, 0.05), 10px 10px 50px rgba(42, 139, 242, 0.1);
+    border-radius: 0px 10px 10px 10px;
+}
+.avatar{
+    margin-right: 24px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.more{
+    width: 24px;
+    margin-left: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

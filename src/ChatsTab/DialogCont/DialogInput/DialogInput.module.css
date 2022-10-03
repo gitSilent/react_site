@@ -1,0 +1,27 @@
+.dialogInputCont{
+    display: flex;
+    margin-bottom: 0;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-left: 61px;
+    border-top: 1px solid #707C9726;
+    align-items: center;
+
+}
+.addIcon{
+    width: 40px;
+}
+.smileIcon{
+    width: 24px;
+}
+.sendIcon{
+    width: 60px;
+}
+input{
+    margin-left: 28px;
+    height: 90px;
+    width: 590px;
+    border: 0 ;
+}

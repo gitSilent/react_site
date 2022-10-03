@@ -1,0 +1,46 @@
+.dialogHeader{
+    display: flex;
+    width: 100%;
+    background-color: #FAFBFF;
+}
+.userAbout{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.userAvatar{
+    width: 54px;
+    border-radius: 50%;
+}
+.userInfo{
+    margin-left: 22px;
+}
+.userInfo h2{
+    margin-bottom: 6px;
+}
+.buttons{
+    display: flex;
+    margin-left: auto;
+    margin-right: 38px;
+}
+.buttons img{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+.attachIcon{
+    
+    border-radius: 50px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 52px;
+}
+.moreIcon{
+    border-radius: 50px;
+    background-color: #fff;
+    width: 52px;
+}
