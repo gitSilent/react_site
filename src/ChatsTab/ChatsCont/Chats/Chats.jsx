@@ -14,8 +14,8 @@ function Chats(){
     return(
         <ul className="chats-list">
             {
-                chatsArray.map((props)=>(
-                    <Dialog avatar={props.avatar} nickname={props.nickname} status={props.status} msgText={props.msgText} qtyMsg={props.qtyMsg} timeAgo={props.timeAgo}/>
+                chatsArray.map((props,index)=>(
+                    <Dialog avatar={props.avatar} nickname={props.nickname} status={props.status} msgText={props.msgText} qtyMsg={props.qtyMsg} timeAgo={props.timeAgo} index={index}/>
                 ))
             }
         </ul>

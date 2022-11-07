@@ -4,7 +4,7 @@ p,div{
 }
 .left-side-container{
     border: 1px solid rgba(128, 128, 128, 0.493);
-    width: 290px;
+    width: 290px !important;
     height: 1080px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -33,7 +33,6 @@ p,div{
 .left-navbar{
     font-size: 16px;
     text-transform: uppercase;
-    margin-left: 38px;
 }
 .left-navbar a{
     color:#707C97;

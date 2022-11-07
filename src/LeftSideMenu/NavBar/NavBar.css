@@ -1,0 +1,26 @@
+.left-navbar{
+    width: 290px;
+}
+.nav-elem-div{
+    padding-left: 38px;
+    display: flex;
+    position: relative;
+    
+}
+/* .nav-elem-div::before{
+    content: url(../../../public/img/rectangle_active.svg);
+} */
+.active_mark{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: -12px;
+    visibility: hidden;
+}
+.active::before{
+    visibility: visible;
+    content: url(../../../public/img/rectangle_active.svg);
+    position: absolute;
+    top: -35px;
+    left: 0;
+}
