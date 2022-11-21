@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from './DialogHeader.module.css'
-function DialogHeader() {
-
+function DialogHeader({user}) {
+    useEffect(()=>{
+        console.log(user)
+    }, [user])
     return (
         <div className={styles.dialogHeader}>
             <div className={styles.userAbout}>
-                <img src="./img/users/nika_jerrardo.svg" alt="" className={styles.userAvatar} />
+                <img src={`./img/users/${user.avatar}`} alt="" className={styles.userAvatar} />
                 <div className={styles.userInfo}>
-                    <h2>Nika Jerrado</h2>
-                    <p>last online 5 hours ago</p>
+                    <h2>{user.nickname}</h2>
+                    <p>{user.status}</p>
                 </div>
                 <div className={styles.buttons}>
                     <div className={styles.attachIcon}>

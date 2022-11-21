@@ -30,28 +30,8 @@ p,div{
     margin-right: auto;
     margin-bottom: 11px;
 }
-.left-navbar{
-    font-size: 16px;
-    text-transform: uppercase;
-}
-.left-navbar a{
-    color:#707C97;
-    text-decoration: none;
-}
-.left-navbar img{
-    width: 24px;
-}
-.nav-elem-div:not(:last-child){
-    margin-bottom: 56px;
-}
-.nav-elem-div a{
-    display: flex;
-}
-.nav-elem-div p{
-    margin-left: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
+
+
 .btnLogOut{
     display: flex;
     width: fit-content;

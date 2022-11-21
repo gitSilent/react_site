@@ -2,6 +2,8 @@
     display: flex;
     background: linear-gradient(180deg, #F3F3FB 0%, #FDFBFD 100%);
     font-family: 'Roboto', sans-serif;
-
+}
+a{
+    text-decoration: none;
 }
 

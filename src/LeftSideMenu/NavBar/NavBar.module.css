@@ -1,0 +1,47 @@
+.left_navbar{
+    width: 290px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.left_navbar a{
+    text-decoration: none;
+    color: #707C97;
+}
+.left_navbar img{
+    width: 24px;
+}
+.nav_elem_div{
+    padding-left: 38px;
+    display: flex;
+    position: relative;
+    
+}
+/* .nav-elem-div::before{
+    content: url(../../../public/img/rectangle_active.svg);
+} */
+/* .active_mark{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: -12px;
+    visibility: hidden;
+} */
+/* .active::before{
+    visibility: visible;
+    content: url(../../../public/img/rectangle_active.svg);
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    left: 0;
+} */
+.nav_elem_div:not(:last-child){
+    margin-bottom: 56px;
+}
+.nav_elem_div a{
+    display: flex;
+}
+.nav_elem_div p{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

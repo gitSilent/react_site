@@ -1,0 +1,15 @@
+.active_mark{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: -12px;
+    visibility: hidden;
+}
+.left-side-container .active::before{
+    visibility: visible;
+    content: url(../../../../public/img/rectangle_active.svg);
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    left: 0;
+}

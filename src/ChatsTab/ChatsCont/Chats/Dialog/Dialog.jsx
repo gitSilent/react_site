@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import "./Dialog.css"
 
 function Dialog(props){
     useEffect(()=>{
         console.log(props.index)
+        // console.log(loc)
     },[])
     return(
-        <NavLink to={`${props.index}`}>
+        <NavLink to={`${props.index}`} >
             <li className="dialog-li">
                 <div className="dialog-cont">
                     <div className="dialog-user-info">

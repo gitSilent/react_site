@@ -1,7 +1,8 @@
 import React from "react";
 import Dialog from "./Dialog";
+import './Chats.css'
 
-function Chats(){
+function Chats({location, setLocation}){
     let chatsArray = [
         {avatar:'./img/users/luy_robin.svg',nickname:'Luy Robin', status:'writing...', msgText: 'text in the message', qtyMsg:2, timeAgo:'1 minute ago'},
         {avatar:'./img/users/jared_sunn.svg',nickname:'Jared Sunn', status:'recording voice message', msgText: 'text in the message', qtyMsg:1, timeAgo:'1 minute ago'},
@@ -15,7 +16,7 @@ function Chats(){
         <ul className="chats-list">
             {
                 chatsArray.map((props,index)=>(
-                    <Dialog avatar={props.avatar} nickname={props.nickname} status={props.status} msgText={props.msgText} qtyMsg={props.qtyMsg} timeAgo={props.timeAgo} index={index}/>
+                    <Dialog avatar={props.avatar} nickname={props.nickname} status={props.status} msgText={props.msgText} qtyMsg={props.qtyMsg} timeAgo={props.timeAgo} index={index} />
                 ))
             }
         </ul>

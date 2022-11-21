@@ -1,3 +1,5 @@
 .dialogBody{
     background-color: #fff;
+    max-height: 628px;
+    overflow: auto;
 }
